@@ -1,0 +1,40 @@
+.outer-container {
+    border: 2px solid black;
+    padding: 20px;
+    width: fit-content;
+}
+
+.inner-container {
+    border: 1px solid black;
+    padding: 10px;
+    max-width: fit-content;
+}
+
+h3 {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+    font-weight: normal;
+}
+
+.facts-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.fact {
+    margin-bottom: 10px;
+}
+
+.fact-title {
+    font-weight: bold;
+}
+
+.fact-text {
+    margin: 0;
+}
